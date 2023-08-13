@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', serif;
+  background:#F0BAC5;
+  color: #FFF;
+}
+
+.conteudo-pagina{
+  width: 72.5vw;
+  height: 35.42vw;
+  margin-left: 12.85vw;
+  margin-top:5.62vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topo{
+  width:100%;
+  height: 10.42vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo{
+  width: 10.42vw;
+  height: 10.42vw;
+}
+
+.botoes{
+  width: 16.61vw;
+  height: 2.92vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btInscrever{
+  border: none;
+  background: none;
+  width: 10.25vw;
+  height: 100%;
+  color:#FFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+#btInicio{
+  border: none;
+  background: #9B173C;
+  border-radius:0.55vw;
+  width: 5.97vw;
+  height: 100%;
+  color:#FFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.corpo{
+  width: 100%;
+  height: 23.54vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.lado-esquerdo{
+  width:42.2vw;
+  height: 21.04vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lado-direito{
+  width: 26.4vw;
+  height: 23.54vw;
+}
+
+#titulo{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.77vw;
+  line-height: 0.5vw;
+}
+
+#infos{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.46vw;
+  line-height: 2.36vw;
+  text-align: justify;
+}
+
+.redes-sociais{
+  width: 15.69vw;
+  height: 3.47vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#instagram{
+  width: 3.47vw;
+  height: 3.47vw;
+  cursor: pointer;
+}
+
+#facebook{
+  width: 3.47vw;
+  height: 3.47vw;
+  cursor: pointer;
+}
+
+#youtube{
+  width: 3.47vw;
+  height: 3.47vw;
+  cursor: pointer;
+}
+
+#mcc{
+  width: 100%;
+  height: 100%;
+}
